@@ -1,0 +1,54 @@
+body {
+  margin:auto;
+  width:95%;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#movie {
+    display: inline-block;
+}
+
+#overview {
+    margin-left: 50px;
+    margin-right: 300px;
+    display: inline-block;
+}
+
+#poster{
+    margin-bottom: 15px;
+}
+
+
+nav .navbar-nav li a{
+  /*color: black !important;*/
+  font-size: 13px;
+  }
+
+.navbar {
+  justify-content: flex-end !important;
+}
+
+#reviews, #reviews_guest{
+    margin-bottom:20px;
+    border:1px dotted white;
+    border-radius: 10px;
+    word-wrap: break-word;
+    font-size:2vh;
+}
+
+#movie_list_api, #movie_api {
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0.2vw solid rgba(0,0,200,0.6);
+    background: rgba(0,0,200,0.3);
+    color: rgba(0,0,200,0.6);
+    box-shadow: 0.1vw 0.1vw 0.2vw rgba(0,0,200,0.4);
+    border-radius: 2vw;
+    padding: 0.5vw 2vw;
+    cursor: pointer;
+    margin-left:2em
+  }
